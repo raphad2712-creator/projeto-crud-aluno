@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    background-color: black;
+}
+.container-form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px ;
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+   
+}
+.container-form .container-inputs {
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-form .container-inputs input{
+    margin: 10px;
+    
+}
